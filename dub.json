@@ -1,0 +1,13 @@
+{
+	"name": "node-d-sample",
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2014, gabor",
+	"authors": ["gabor"],
+	"dependencies": {
+	},
+	"libs": [ "phobos2" ],
+	"dflags-dmd-posix": ["-fPIC"],
+	"targetName": "node-d-sample",
+	"targetPath": "lib",
+	"targetType": "dynamicLibrary"
+}
